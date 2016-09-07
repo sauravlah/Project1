@@ -1,0 +1,53 @@
+ORE SM01 CONFIG WITH NEIGHBORS:
+————————————————————————-
+PRIMARY ROUTE VIA 172.17.0.134 (ATT) to SC8 DC
+SECONDARY ROUTE VIA JUNIPER SRX 172.26.0.253
+—————————————————————————
+CORE-01-SM#sh cdp nei
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+sw-406-sm        Gig 2/0/1         151              T S   WS-C3524- Gig 0/2
+SRV-01-SM.netsuite.com
+                 Gig 1/0/10        151             R S I  WS-C3750X Gig 1/1/1
+SRV-01-SM.netsuite.com
+                 Gig 4/0/10        161             R S I  WS-C3750X Gig 3/1/1
+sw-407-sm        Gig 3/0/1         174              T S   WS-C3524- Gig 0/2
+ABR-05-SM.netsuite.com
+                 Gig 4/0/9         177             R S I  WS-C3750X Gig 1/0/11
+ABR-05-SM.netsuite.com
+                 Gig 1/0/4         155             R S I  WS-C3750X Gig 2/0/12
+ABR-05-SM.netsuite.com
+                 Gig 1/0/9         137             R S I  WS-C3750X Gig 1/0/12
+sw-404-sm        Gig 2/0/48        172              T S   WS-C3524- Gig 0/2
+ABR-04-SM.netsuite.com
+                 Gig 1/0/12        126             R S I  WS-C3750G Gig 3/0/2
+ABR-04-SM.netsuite.com
+                 Gig 4/0/11        126             R S I  WS-C3750G Gig 2/0/1
+ABR-04-SM.netsuite.com
+                 Gig 1/0/11        126             R S I  WS-C3750G Gig 1/0/1
+ABR-03-SM.netsuite.com
+                 Ten 4/1/1         166             R S I  WS-C3750X Ten 1/1/1
+ABR-03-SM.netsuite.com
+                 Ten 3/1/1         162             R S I  WS-C3750X Ten 2/1/1
+ABR-02-SM.netsuite.com
+                 Gig 1/0/6         148             R S I  WS-C3750G Gig 3/0/1
+ABR-02-SM.netsuite.com
+                 Gig 4/0/6         148             R S I  WS-C3750G Gig 2/0/1
+ABR-02-SM.netsuite.com
+                 Gig 4/0/5         148             R S I  WS-C3750G Gig 1/0/2
+ABR-02-SM.netsuite.com
+                 Gig 1/0/5         148             R S I  WS-C3750G Gig 1/0/1
+sw-403-sm        Gig 4/0/1         135              T S   WS-C3524- Gig 0/2
+SM-CSW-01.netsuite.com
+                 Gig 2/0/2         179              S I   WS-C3750- Gig 1/0/1
+SM-CSW-02.netsuite.com
+                 Gig 3/0/2         125              S I   WS-C3750- Gig 1/0/1
+SR-01-SC8.netsuite.com
+                 Gig 3/0/48        161             R S I  WS-C3750X Gig 1/0/30
+ABR-06-SM.netledger.com
+                 Gig 4/0/12        138             R S I  WS-C3750X Gig 2/0/12
+          
+Device ID        Local Intrfce     Holdtme    Capab
