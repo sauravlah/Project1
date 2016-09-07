@@ -1,0 +1,3 @@
+ am going to write the next file to the second commit on the local projec1 repository.
+I am then trying to commit the changes and make sure it is picked up by the local gib repository and then sync with the online repo.
+
